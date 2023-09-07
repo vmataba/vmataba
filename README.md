@@ -6,6 +6,11 @@ For any discussion about work reach me out on
 
 [LinkedIn](https://www.linkedin.com/in/victor-mataba-73b449175/)
 
+Checkout some of my works
+[Tenants App](https://play.google.com/store/apps/details?id=com.tabaapps.tenants&hl=en_US&gl=US)
+
+[Metro Agency Insurance App](https://play.google.com/store/apps/details?id=com.metrodsf.metroagency)
+
 <!--
 **vmataba/vmataba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
