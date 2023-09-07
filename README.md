@@ -1,6 +1,10 @@
 ### Hi there 👋
 
-My name is Victor Mataba, a Full Stack Developer with 6+ years in an industry
+My name is Victor Mataba, a skilled developer with 6+ years of experience in the industry. I specialize in web programming and Android app development and have a passion for creating clean, efficient, and high-quality code. My top languages are Java/Kotlin,Javascript & PHP. I'm always eager to learn new technologies and languages to stay up-to-date with the latest trends
+
+Reach me out on
+
+[LinkedId](https://www.linkedin.com/in/victor-mataba-73b449175/)
 
 <!--
 **vmataba/vmataba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
