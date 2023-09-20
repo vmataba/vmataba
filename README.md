@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-My name is Victor Mataba, a skilled developer with 6+ years of experience in the industry. I specialize in web programming and Android app development and have a passion for creating clean, efficient, and high-quality code. My top languages are Java/Kotlin,Javascript & PHP. I'm always eager to learn new technologies and languages to stay up-to-date with the latest trends
+Hi there, I'm Victor Mataba a skilled Full Stack Developer with 6+ years of experience in the industry. I have successfully contributed into development of backend & frontend applications leveraging diverse tech stacks. My expertise span around Java,Kotlin & JavaScript  through out my service I have been constistently demonstrating the understading of Software development principles and my passion to deliver clean and efficient code makes me deliver robust and effecient solutions that surpass project goals
 
 For any discussion about work reach me out on
 
