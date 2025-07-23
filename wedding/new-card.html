@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>New Invite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .new-invite {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .new-invite label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .new-invite input {
+            padding: 10px;
+            width: 60%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        .new-invite button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+
+</head>
+
+<body>
+<div class="new-invite">
+    <label for="inviteeName">Invitee Name:</label>
+    <input type="text" id="inviteeName" placeholder="Invitee Name">
+    <button id="submitBtn">Submit</button>
+</div>
+
+<script>
+    document.getElementById("submitBtn").addEventListener("click", function () {
+        const inviteeName = btoa(document.getElementById("inviteeName").value);
+        window.location.href = `card.html#invitee=${encodeURIComponent(inviteeName)}`;
+    });
+</script>
+
+</body>
+
+</html>
