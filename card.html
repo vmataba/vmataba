@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="sw">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mwaliko wa Harusi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        @font-face {
+            font-family: Edwardian Script ITC;
+            src: url("./fonts/edwardian.ttf");
+        }
+
+        @font-face {
+            font-family: Great Vibes;
+            src: url("./fonts/great-vibes.ttf");
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            font-family: 'Georgia', serif;
+            color: white;
+            width: 100vw;
+        }
+
+        .card {
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 40px;
+            background-color: #2c2c2c;
+            position: relative;
+            box-shadow: 0 0 10px #000;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('photos/background.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.1;
+            z-index: 0;
+        }
+
+        .card::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 5px solid gold;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .card > * {
+            position: relative;
+            z-index: 3;
+        }
+
+        .header {
+            text-align: center;
+            font-size: 4rem;
+            color: #e60000;
+            font-family: Edwardian Script ITC;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            text-align: center;
+            line-height: 1.7;
+            font-size: 18px;
+            font-style: italic;
+            font-family: Arial;
+        }
+
+        .recipient-box {
+            border: 1px solid white;
+            background: #eee;
+            color: black;
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+            font-weight: bold;
+            min-height: 30px;
+        }
+
+        .highlight {
+            font-size: 4rem;
+            color: #e60000;
+            font-family: Great Vibes;
+        }
+
+        .contacts {
+            margin-top: 20px;
+            font-size: 16px;
+            color: gold;
+            text-align: center;
+            font-style: italic;
+            font-family: Arial;
+        }
+
+        .flowers-top,
+        .flowers-bottom {
+            position: absolute;
+            width: 500px;
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        .flowers-top {
+            top: -80px;
+            right: -150px;
+        }
+
+        .flowers-bottom {
+            bottom: -70px;
+            left: -70px;
+        }
+
+        .input-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input-section input {
+            padding: 10px;
+            width: 60%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        @media screen and (max-width <= 499px) {
+            .highlight {
+                font-size: 2px
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+
+    <img src="photos/11.gif" alt="flower-top" class="flowers-top">
+    <img src="photos/12.gif" alt="flower-bottom" class="flowers-bottom">
+
+    <div class="header">Mwaliko wa Harusi</div>
+
+    <div class="content">
+        Familia ya <strong>Mr & Mrs Natalis Mataba</strong> wa Maswa Simiyu wanayo furaha kukutaarifu/kuwataarifu <br>
+
+        <div class="recipient-box" id="inviteeName">_</div>
+
+        Kuwa kijana wao mpendwa <br>
+        <span class="highlight">Victor Mataba</span><br><br> Anatarajia kufunga ndoa takatifu tarehe
+        <strong>15/11/2025</strong> Dar es Salaam.<br> Hivyo ukiwa ndugu jamaa na rafiki wa karibu na familia hii, <br>
+        tunaomba mchango wako wa hali na mali
+        kuhakikisha shughuli hii inafanikiwa.<br> Ili kufanikisha shughuli hii muhimu karibu kwa ahadi.
+    </div>
+
+    <div class="contacts">
+        0657471721 (YAS/TIGOPESA) - VICTOR NATALIS MATABA<br> 0762228745 (MPESA) - FRANK MATABA<br> 20810055844 (NMB) -
+        VICTOR NATALIS MATABA
+    </div>
+</div>
+
+<script>
+    const hasParams = new URLSearchParams(window.location.hash.slice(1));
+    const name = hasParams.get('invitee');
+    const inviteeName = document.getElementById('inviteeName');
+    inviteeName.innerHTML = atob(name);
+</script>
+
+</body>
+
+</html>
