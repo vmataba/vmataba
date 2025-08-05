@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
     <script>
-        const currentPath = window.location.pathname;
-        const basePath = "/vmataba/wedding";
+      const currentPath = window.location.pathname;
+      const basePath = "/vmataba/wedding";
 
-        // Only redirect if we're not already inside /vmataba/wedding
-        if (!currentPath.startsWith(basePath)) {
-            window.location.replace(basePath + currentPath);
-        }
+      // Only redirect if we're not already inside /vmataba/wedding
+      if (!currentPath.startsWith(basePath)) {
+        const newPath = basePath + currentPath + window.location.search + window.location.hash;
+        window.location.replace(newPath);
+      }
     </script>
-</head>
-<body>
-<p>Redirecting...</p>
-</body>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
 </html>
+
