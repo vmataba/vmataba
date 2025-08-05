@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.adbb3d13.css",
+    "main.js": "/static/js/main.525a20cd.js",
+    "static/js/453.c505c41c.chunk.js": "/static/js/453.c505c41c.chunk.js",
+    "static/media/great-vibes.ttf": "/static/media/great-vibes.f51f1a4f2cd0c9611249.ttf",
+    "static/media/background.jpg": "/static/media/background.cb7fe288de3acab1bfc8.jpg",
+    "index.html": "/index.html",
+    "main.adbb3d13.css.map": "/static/css/main.adbb3d13.css.map",
+    "main.525a20cd.js.map": "/static/js/main.525a20cd.js.map",
+    "453.c505c41c.chunk.js.map": "/static/js/453.c505c41c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adbb3d13.css",
+    "static/js/main.525a20cd.js"
+  ]
+}
