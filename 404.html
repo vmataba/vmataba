@@ -3,14 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <script>
-      const currentPath = window.location.pathname;
-      const basePath = "/vmataba/wedding";
-
-      // Only redirect if we're not already inside /vmataba/wedding
-      if (!currentPath.startsWith(basePath)) {
-        const newPath = basePath + currentPath + window.location.search + window.location.hash;
-        window.location.replace(newPath);
-      }
+      const redirectTo = "/vmataba/wedding/index.html";
+      const fullPath = window.location.pathname + window.location.search + window.location.hash;
+      sessionStorage.redirected = "true";
+      window.location.replace(redirectTo + "?redirect=" + encodeURIComponent(fullPath));
     </script>
   </head>
   <body>
