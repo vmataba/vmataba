@@ -2,18 +2,37 @@
 <html>
 <head>
     <meta charset="UTF-8" />
+    <title>Page Not Found</title>
     <script>
-        const currentPath = window.location.pathname;
-        const basePath = "/vmataba/wedding";
+        // Single Page Apps for GitHub Pages
+        // MIT License
+        // Modified for Victor's Wedding site
+        (function(){
+            // This works for GitHub Pages when using custom domain or username.github.io/repo-name format
+            const l = window.location;
+            const pathSegmentsToKeep = 1; // Change to 0 if using custom domain
 
-        // Only redirect if we're not already inside /vmataba/wedding
-        if (!currentPath.startsWith(basePath)) {
-            const newPath = basePath + currentPath + window.location.search + window.location.hash;
-            window.location.replace(newPath);
-        }
+            // Get the current URL segments
+            const currentPath = l.pathname.split('/').filter(p => p !== "");
+            
+            if (currentPath.length > 0) {
+                // Redirect to the single page app
+                l.replace(
+                    l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+                    l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+                    l.pathname.split('/').slice(1 + pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+                    (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+                    l.hash
+                );
+            }
+        })();
     </script>
 </head>
 <body>
-<p>Redirecting...</p>
+    <div style="text-align: center; font-family: Arial, sans-serif; margin-top: 50px;">
+        <h1>Page Not Found</h1>
+        <p>Redirecting to homepage...</p>
+        <p>If you are not redirected automatically, <a href="/">click here</a>.</p>
+    </div>
 </body>
 </html>
