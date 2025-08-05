@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./wedding/static/css/main.a2049211.css",
-    "main.js": "./wedding/static/js/main.c0e852cd.js",
-    "static/js/453.c505c41c.chunk.js": "./wedding/static/js/453.c505c41c.chunk.js",
-    "static/media/great-vibes.ttf": "./wedding/static/media/great-vibes.f51f1a4f2cd0c9611249.ttf",
-    "static/media/background.jpg": "./wedding/static/media/background.cb7fe288de3acab1bfc8.jpg",
-    "index.html": "./wedding/index.html",
-    "main.a2049211.css.map": "./wedding/static/css/main.a2049211.css.map",
-    "main.c0e852cd.js.map": "./wedding/static/js/main.c0e852cd.js.map",
-    "453.c505c41c.chunk.js.map": "./wedding/static/js/453.c505c41c.chunk.js.map"
+    "main.css": "./static/css/main.a2049211.css",
+    "main.js": "./static/js/main.5803acd9.js",
+    "static/js/453.c505c41c.chunk.js": "./static/js/453.c505c41c.chunk.js",
+    "static/media/great-vibes.ttf": "./static/media/great-vibes.f51f1a4f2cd0c9611249.ttf",
+    "static/media/background.jpg": "./static/media/background.cb7fe288de3acab1bfc8.jpg",
+    "index.html": "./index.html",
+    "main.a2049211.css.map": "./static/css/main.a2049211.css.map",
+    "main.5803acd9.js.map": "./static/js/main.5803acd9.js.map",
+    "453.c505c41c.chunk.js.map": "./static/js/453.c505c41c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2049211.css",
-    "static/js/main.c0e852cd.js"
+    "static/js/main.5803acd9.js"
   ]
 }
