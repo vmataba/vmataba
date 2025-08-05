@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.a2049211.css",
-    "main.js": "./static/js/main.ce8627b2.js",
-    "static/js/453.c505c41c.chunk.js": "./static/js/453.c505c41c.chunk.js",
-    "static/media/great-vibes.ttf": "./static/media/great-vibes.f51f1a4f2cd0c9611249.ttf",
-    "static/media/background.jpg": "./static/media/background.cb7fe288de3acab1bfc8.jpg",
-    "index.html": "./index.html",
-    "main.a2049211.css.map": "./static/css/main.a2049211.css.map",
-    "main.ce8627b2.js.map": "./static/js/main.ce8627b2.js.map",
-    "453.c505c41c.chunk.js.map": "./static/js/453.c505c41c.chunk.js.map"
+    "main.css": "/vmataba/wedding/static/css/main.79f2cb0e.css",
+    "main.js": "/vmataba/wedding/static/js/main.5c1eeaf6.js",
+    "static/js/453.c505c41c.chunk.js": "/vmataba/wedding/static/js/453.c505c41c.chunk.js",
+    "static/media/great-vibes.ttf": "/vmataba/wedding/static/media/great-vibes.f51f1a4f2cd0c9611249.ttf",
+    "static/media/background.jpg": "/vmataba/wedding/static/media/background.cb7fe288de3acab1bfc8.jpg",
+    "index.html": "/vmataba/wedding/index.html",
+    "main.79f2cb0e.css.map": "/vmataba/wedding/static/css/main.79f2cb0e.css.map",
+    "main.5c1eeaf6.js.map": "/vmataba/wedding/static/js/main.5c1eeaf6.js.map",
+    "453.c505c41c.chunk.js.map": "/vmataba/wedding/static/js/453.c505c41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2049211.css",
-    "static/js/main.ce8627b2.js"
+    "static/css/main.79f2cb0e.css",
+    "static/js/main.5c1eeaf6.js"
   ]
 }
